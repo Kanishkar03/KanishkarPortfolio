@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishkar Digital Marketing Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Noto+Sans+Mono:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans+Mono:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="/Users/kanishkarbalaji/Downloads/new/IMG_3751-photoaidcom-cropped.png">
+
+</head>
+
+<body>
+    <style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(11, 13, 14);
+}
+
+
+.snow_warp img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  overflow: hidden;
+  filter: blur(8px);
+}
+
+.snow, .snow:after, .snow:before {
+  content: "";
+  position: absolute;
+  top: -650px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+      radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+      radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+      radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+      radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+      radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+      radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+      radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+      radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+      radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+      background-size: 650px 650px; 
+
+      animation: snowAnim 3s linear;
+      animation-iteration-count: infinite;
+
+}
+.snow:after{
+  margin-left: -250px;
+  opacity: 0.5;
+  filter: blur(2px);
+}
+.snow:before{
+  margin-left: -350px;
+  opacity: 0.7;
+  filter: blur(1px);
+}
+
+.helloiam {
+  padding-top: 30vh;
+  padding-left: 20vh;
+  color: whitesmoke;
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  line-height: 30px;
+  animation: fadeIn 2s ease-in-out;
+  transition: transform 0.3s, color 0.3s;
+}
+
+hr {
+  width: 210px;
+  margin-top: 2vh;
+  margin-left: 20vh;
+  border-top: 5px solid #dcbd5a;
+  animation: fadeIn 2s ease-in-out;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.names {
+  font-size: 10vh;
+  margin-bottom: 0px;
+  font-family: "Limelight", serif;
+  animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s, color 0.3s;
+    color:white;
+}
+
+.intro-word {
+  font-family: "Jura", serif;
+  font-size: 20px;
+  animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s, color 0.3s;
+    color:white;
+
+}
+
+.profile-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20vh;
+  margin-top: -12vh;
+  gap: 5vh;
+  animation: fadeIn 2s ease-in-out;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  animation: fadeIn 2s ease-in-out;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+  gap: 20px;
+  /* animation:none; */
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+  z-index: 9999;
+
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ffffff;
+  animation: fadeIn 10s none;
+  font-size: 1.5em;
+  transition: transform 0.3s, color 0.3s;
+  animation: fadeIn 2s ease-in-out;
+
+  cursor: pointer;
+
+}
+
+.social-links a:hover {
+  color: #dcbd5a;
+  transform: scale(1.1);
+cursor: pointer;
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.secpage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20vh auto;
+  padding: 0 10vw;
+  gap: 5vw;
+}
+
+.profile2 {
+  margin-top: 15vh;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, background-color 0.3s;
+}
+.profile2:hover {
+  transform: scale(1.1);
+  background-color: #282c2f;
+}
+.secpage-text h1 {
+  margin-top: 15vh;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: #dcbd5a;
+}
+
+.secpage-text h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secpage-text p {
+  margin-top: 1rem;
+  color: #f0f0f0;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: "Jura", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.skills-section {
+  margin: 10vh auto;
+  padding: 0 5vw;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: #dcbd5a;
+  margin-bottom: 2rem;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.skill {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b1e20;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill i {
+  font-size: 3rem;
+    color: #dcbd5a;
+    margin-bottom: 1rem;
+}
+
+.skill p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  font-family: "Jura", serif;
+  text-align: center;
+}
+.skill:hover {
+  transform: scale(1.1);
+  background-color: #282c2f;
+}
+
+.footer {
+  background-color: #1b1e20;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: white;
+  font-size: 1rem;
+}
+
+ 
+.footer-links a:hover {
+  color: #dcbd5a;
+  transform: scale(1.1);
+}
+.footer i {
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 1024px) {
+  .helloiam {
+    margin-top: -20vh;
+    padding-left: 5vh;
+  }
+hr{
+  margin-left:5vh;
+}
+.names{
+  margin-top: 15vh;
+}
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5vw;
+  }
+
+  .profile {
+    width: 400px;
+    height: 400px;
+  }
+
+  .profile {
+    width: 350px;
+    height: 350px;
+  position: absolute;
+  margin-top: 27vh;
+  }
+.intro-word {
+  margin-top: 45vh;
+  margin-left: 2vh;
+}
+.social-links{
+  margin-left: 2vh;
+}
+
+.profile2{
+  display: none;
+}
+.secpage-text h1{
+  margin-top: 5vh;
+  font-size: 30px;
+}
+.secpage-text h2{
+  margin-top: 10vh;
+}
+  .secpage {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile2 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .secpage-text {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .helloiam {
+    margin-top: -15vh;
+    font-size: 2rem;
+    padding-left: 5vh;
+  }
+hr{
+  margin-left: 5vh;
+}
+  .names {
+    font-size: 4rem;
+    margin-top: 15vh;
+    margin-left: 2vh;
+  }
+
+  .profile {
+    width: 350px;
+    height: 350px;
+  position: absolute;
+  margin-top: 27vh;
+  }
+.intro-word {
+  margin-top: 45vh;
+  margin-left: 2vh;
+}
+.social-links{
+  margin-left: 2vh;
+}
+
+.profile2{
+  display: none;
+}
+.secpage-text h1{
+margin-top: 1vh;
+font-size: 2rem;
+}
+.secpage-text h2{
+  margin-top: 7vh;
+}
+.secpage-text p{
+  margin-top: 8vh;
+}
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill p {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .helloiam {
+    margin-top: -20vh;
+    font-size: 1.5rem;
+    padding-left: 3vh;
+  }
+hr{
+  margin-left: 3vh;
+}
+  .names {
+    font-size: 3rem;
+    margin-top: 13vh;
+  }
+
+  .profile {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 23vh;
+  }
+.intro-word{
+  position: absolute;
+  margin-top:35vh;
+}
+.social-links{
+  position: absolute;
+  margin-top: 47vh;
+}
+.profile2{
+display: none;
+}
+
+.secpage h1 {
+    font-size: 1.2rem;
+    margin-top: 40vh;
+  }
+.secpage-text h2{
+  margin-top: 10vh;
+}
+
+.secpage-text p{
+  font-size: 0.9rem;
+}
+  .skills-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .skill p{
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
+
+    </style>
+    <div class="snow_warp">
+        <div class="snow"></div>
+    </div>
+    <div class="Hello">
+        <h1 class="helloiam">Hello, I'm</h1>
+    </div>
+    <hr>
+    <div class="profile-container">
+        <div>
+            <p class="names">Kanishkar</p>
+            <p class="intro-word">Fresher in Digital Marketing Professional | Passionate About SEO, PPC, & SMM</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kanishkarbalaji/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.fiverr.com/kanishkarbalaji/buying?source=avatar_menu_profile" target="_blank"><i class="fas fa-briefcase"></i> </a>
+                <a href="https://www.upwork.com/freelancers/~01dfab8b24dfbee29f" target="_blank"><i class="fas fa-user-tie"></i> </a>
+                <a href="https://www.freelancer.com" target="_blank"><i class="fas fa-laptop"></i> </a>
+                <a href="https://github.com/Kanishkar03" target="_blank"><i class="fab fa-github"></i> </a>
+            </div>
+          </div>
+          <img class="profile" src="IMG_3751 2.JPG" alt="profile">
+        </div>
+    <div class="secpage">
+        <img class="profile2" src="IMG_3751 2.JPG" alt="profile">
+        <div class="secpage-text">
+            <h1>"Empowering brands with data-driven strategies, innovative campaigns, <br>and measurable growth in the digital landscape."</h1>
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science Engineering student currently pursuing studies at Kongu Engineering College with a growing passion for digital marketing and social media management. I am a highly motivated digital marketing fresher with expertise in SEO, PPC campaigns, social media management, and content creation. I have a passion for crafting strategies that drive measurable results and elevate brand presence online.
+            </p>
+        </div>
+    </div>
+    <div class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-searchengin"></i>
+                <p>Search Engine Optimization (SEO)</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-bullhorn"></i>
+                <p>Pay-Per-Click Advertising (PPC)</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-facebook"></i>
+                <p>Social Media Management (SMM)</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-chart-line"></i>
+                <p>Google Analytics</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-pen"></i>
+                <p>Content Creation</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-mail-bulk"></i>
+                <p>Email Marketing</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2024 Kanishkar. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:kanishkarbalaji03@gmail.com" target="_blank"><i class="fas fa-envelope"></i> </a>
+                <a href="tel:+91 9944318288" target="_blank"><i class="fas fa-phone-alt"></i> </a>
+                <a href="https://www.instagram.com/kanish____12/" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://www.linkedin.com/in/kanishkarbalaji/" target="_blank"><i class="fab fa-linkedin"></i> </a>
+                <a href="https://www.fiverr.com/kanishkarbalaji" target="_blank"><i class="fas fa-briefcase"></i> </a>
+                <a href="https://www.upwork.com/freelancers/~01dfab8b24dfbee29f" target="_blank"><i class="fas fa-user-tie"></i> </a>
+                <a href="https://www.freelancer.com" target="_blank"><i class="fas fa-laptop"></i> </a>
+                <a href="https://github.com/Kanishkar03" target="_blank"><i class="fab fa-github"></i> </a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+
+</body>
+</html>

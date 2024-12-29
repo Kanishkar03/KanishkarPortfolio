@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishkar Portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" type="image/png" href="/Users/kanishkarbalaji/Downloads/new/IMG_3751-photoaidcom-cropped.png">
+</head>
+
+<body class="m-0 bg-[#090909] text-black overflow-hidden">
+
+    
+
+    <div class="relative">
+        <img src="fog.jpeg" alt="Fog Background" class="h-screen w-full object-cover blur-lg">
+        <div class="absolute inset-0 snow opacity-70"></div>
+    </div>
+
+    <div class="absolute top-40 left-1/2 transform -translate-x-1/2 text-center z-10">
+        <h1 class="text-4xl font-bold text-[#f7f6e8] tracking-wide drop-shadow-md">Click to Visit My Portfolio...</h1>
+    </div>
+
+    <div class="absolute flex- top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-5 z-10">
+      
+        <button onclick="location.href='sec.html'" class="bg-white text-black px-6 py-3 text-lg font-bold rounded-lg shadow-lg transition-transform duration-300 hover:bg-[#3A4750] hover:text-white hover:scale-110">
+            Digital Marketing
+        </button>
+      
+    </div>
+
+    <div class="text-center mt-12">
+        <h1 class="text-4xl font-bold">Kanishkar</h1>
+        <h5 class="mt-2 text-lg">Fresh Digital Marketing Professional | Passionate About SEO, PPC, & SMM</h5>
+        <img src="" alt="profile" class="w-32 h-32 mx-auto rounded-full mt-4">
+        <div class="flex justify-center mt-4 space-x-4">
+            <a href="#" class="text-blue-500 text-xl"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-blue-700 text-xl"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-blue-400 text-xl"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <div class="text-center mt-12">
+        <h2 class="text-2xl font-bold">I am a Dream boy but, I can Succeed on time</h2>
+        <div class="mt-8 flex justify-center items-center">
+            <div class="w-1/2">
+                <img src="" alt="profile" class="w-48 h-48 rounded-full mx-auto">
+                <h5 class="mt-4 text-lg leading-6">
+                    I am a highly motivated digital marketing fresher with expertise in SEO, PPC campaigns, social media management, and content creation.
+                    I have a passion for crafting strategies that drive measurable results and elevate brand presence online.
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-12 text-center">
+        <h3 class="text-xl font-semibold">Skills</h3>
+        <div class="mt-4 flex justify-center space-x-4">
+            <span class="bg-gray-800 text-white px-4 py-2 rounded-lg">SEO</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded-lg">PPC</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded-lg">Content Marketing</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded-lg">SMM</span>
+        </div>
+    </div>
+
+    <style>
+.snow_warp img {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
+    filter: blur(8px);
+}
+
+.snow, .snow:after, .snow:before {
+    content: "";
+    position: absolute;
+    top: -650px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+        radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+        radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+        radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+        radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+        radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+        radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+        radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+        radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+    background-size: 650px 650px;
+    animation: snowAnim 3s linear infinite;
+    animation-iteration-count: infinite;
+}
+
+.snow:after {
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-direction: reverse;
+    animation-duration: 6s;
+}
+
+.snow:before {
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-direction: reverse;
+    animation-duration: 9s;
+}
+
+@keyframes snowAnim {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(650px);
+    }
+}
+    </style>
+</body>
+
+</html>
